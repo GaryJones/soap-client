@@ -39,7 +39,7 @@ class SoapClientFactory
      *
      * @return SoapClient
      */
-    public function factory(string $wsdl, array $soapOptions = []): SoapClient
+    public function factory(string $wsdl, array $soapOptions = [])
     {
         $defaults = [
             'trace' => true,
